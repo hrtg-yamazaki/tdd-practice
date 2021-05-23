@@ -9,7 +9,7 @@
     <body>
         
         <div id="app" class="app">
-            Hello, TDD!
+            {{ $message }}
         </div>
         
     </body>
