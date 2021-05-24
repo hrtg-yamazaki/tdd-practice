@@ -14,3 +14,9 @@ Error: Call to undefined method App\Services\Sample\SampleService::getFilmNameFr
 ```
 OK (3 tests, 3 assertions)
 ```
+
+- 【Green】該当する作品が無い年号を与えた場合(三角測量)
+
+```
+OK (4 tests, 4 assertions)
+```
