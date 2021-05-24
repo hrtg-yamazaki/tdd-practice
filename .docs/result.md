@@ -63,3 +63,18 @@ Failed asserting that two strings are identical.
 ```
 OK (6 tests, 6 assertions)
 ```
+
+- 【Red】数字の1989が与えられた時、文字列「魔女の宅急便」を返す
+
+```
+1) Tests\Unit\Sample\SampleTest::関数getFilmNameFromYearは、1989を与えると魔女の宅急便を返す
+Failed asserting that two strings are identical.
+--- Expected
++++ Actual
+@@ @@
+-'魔女の宅急便'
++'次の作品が完成したら今度こそ引退します'
+
+/app/tests/Unit/Sample/SampleTest.php:74
+```
+

@@ -63,4 +63,15 @@ class SampleTest extends TestCase
         $this->assertSame($expected, $actual);
     }
 
+    /**
+     * @test
+     */
+    public function 関数getFilmNameFromYearは、1989を与えると魔女の宅急便を返す()
+    {
+        $expected = '魔女の宅急便';
+        $actual   = $this->sampleService->getFilmNameFromYear(1989);
+
+        $this->assertSame($expected, $actual);
+    }
+
 }
