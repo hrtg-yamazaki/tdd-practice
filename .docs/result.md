@@ -83,3 +83,20 @@ Failed asserting that two strings are identical.
 ```
 OK (7 tests, 7 assertions)
 ```
+
+- --debugオプションをつけて実行してみる
+
+```sh
+Test 'Tests\Unit\ExampleTest::test_example' started
+Test 'Tests\Unit\ExampleTest::test_example' ended
+Test 'Tests\Unit\Sample\SampleTest::関数getFilmNameFromYearは、1を与えると引退宣言を返す' started
+Test 'Tests\Unit\Sample\SampleTest::関数getFilmNameFromYearは、1を与えると引退宣言を返す' ended
+Test 'Tests\Unit\Sample\SampleTest::関数getFilmNameFromYearは、1986を与えるとラピュタを返す' started
+Test 'Tests\Unit\Sample\SampleTest::関数getFilmNameFromYearは、1986を与えるとラピュタを返す' ended
+Test 'Tests\Unit\Sample\SampleTest::関数getFilmNameFromYearは、1988を与えるとトトロを返す' started
+Test 'Tests\Unit\Sample\SampleTest::関数getFilmNameFromYearは、1988を与えるとトトロを返す' ended
+Test 'Tests\Unit\Sample\SampleTest::関数getFilmNameFromYearは、1989を与えると魔女の宅急便を返す' started
+Test 'Tests\Unit\Sample\SampleTest::関数getFilmNameFromYearは、1989を与えると魔女の宅急便を返す' ended
+Test 'Tests\Feature\ExampleTest::test_example' started
+Test 'Tests\Feature\ExampleTest::test_example' ended
+```

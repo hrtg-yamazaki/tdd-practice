@@ -21,6 +21,7 @@ class SampleTest extends TestCase
 
     /**
      * @test
+     * @group getFilmNameFromYear
      */
     public function 関数getFilmNameFromYearは、1を与えると引退宣言を返す()
     {
@@ -32,17 +33,7 @@ class SampleTest extends TestCase
 
     /**
      * @test
-     */
-    public function 関数getFilmNameFromYearは、2を与えると引退宣言を返す()
-    {
-        $expected = '次の作品が完成したら今度こそ引退します';
-        $actual   = $this->sampleService->getFilmNameFromYear(2);
-
-        $this->assertSame($expected, $actual);
-    }
-
-    /**
-     * @test
+     * @group getFilmNameFromYear
      */
     public function 関数getFilmNameFromYearは、1986を与えるとラピュタを返す()
     {
@@ -54,6 +45,7 @@ class SampleTest extends TestCase
 
     /**
      * @test
+     * @group getFilmNameFromYear
      */
     public function 関数getFilmNameFromYearは、1988を与えるとトトロを返す()
     {
@@ -65,6 +57,7 @@ class SampleTest extends TestCase
 
     /**
      * @test
+     * @group getFilmNameFromYear
      */
     public function 関数getFilmNameFromYearは、1989を与えると魔女の宅急便を返す()
     {
