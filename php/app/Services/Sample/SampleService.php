@@ -23,4 +23,12 @@ class SampleService implements SampleServiceInterface
     {
         return 'Hello, TDD!';
     }
+
+    /**
+     * @inheritDoc
+     */
+    public function getFilmNameFromYear(int $year): string
+    {
+        return '次の作品が完成したら今度こそ引退します';
+    }
 }

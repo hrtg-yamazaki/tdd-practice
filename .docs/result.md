@@ -8,3 +8,9 @@ Error: Call to undefined method App\Services\Sample\SampleService::getFilmNameFr
 
 /app/tests/Unit/Sample/SampleTest.php:28
 ```
+
+- 【Green】該当する作品が無い年号を与えた場合
+
+```
+OK (3 tests, 3 assertions)
+```
