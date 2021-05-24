@@ -38,8 +38,22 @@ FAILURES!
 Tests: 5, Assertions: 5, Failures: 1.
 ```
 
-- 【Red】数字の1986が与えられた時、文字列「天空の城ラピュタ」を返す
+- 【Green】数字の1986が与えられた時、文字列「天空の城ラピュタ」を返す
 
 ```
 OK (5 tests, 5 assertions)
+```
+
+- 【Red】数字の1988が与えられた時、文字列「となりのトトロ」を返す
+
+```
+1) Tests\Unit\Sample\SampleTest::関数getFilmNameFromYearは、1988を与えるとトトロを返す
+Failed asserting that two strings are identical.
+--- Expected
++++ Actual
+@@ @@
+-'となりのトトロ'
++'次の作品が完成したら今度こそ引退します'
+
+/app/tests/Unit/Sample/SampleTest.php:63
 ```
