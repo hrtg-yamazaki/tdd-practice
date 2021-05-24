@@ -33,7 +33,10 @@ class SampleService implements SampleServiceInterface
             return '天空の城ラピュタ';
         } else if ($year === 1988) {
             return 'となりのトトロ';
+        } else if ($year === 1989) {
+            return '魔女の宅急便';
         }
         return '次の作品が完成したら今度こそ引退します';
     }
+
 }

@@ -78,3 +78,8 @@ Failed asserting that two strings are identical.
 /app/tests/Unit/Sample/SampleTest.php:74
 ```
 
+- 【Green】数字の1989が与えられた時、文字列「魔女の宅急便」を返す
+
+```
+OK (7 tests, 7 assertions)
+```
