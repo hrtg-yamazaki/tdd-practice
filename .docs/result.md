@@ -20,3 +20,20 @@ OK (3 tests, 3 assertions)
 ```
 OK (4 tests, 4 assertions)
 ```
+
+- 【Red】数字の1986が与えられた時、文字列「天空の城ラピュタ」を返す
+
+```
+1) Tests\Unit\Sample\SampleTest::関数getFilmNameFromYearは、1986を与えるとラピュタを返す
+Failed asserting that two strings are identical.
+--- Expected
++++ Actual
+@@ @@
+-'天空の城ラピュタ'
++'次の作品が完成したら今度こそ引退します'
+
+/app/tests/Unit/Sample/SampleTest.php:52
+
+FAILURES!
+Tests: 5, Assertions: 5, Failures: 1.
+```

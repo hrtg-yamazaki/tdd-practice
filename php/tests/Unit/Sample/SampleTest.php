@@ -40,4 +40,16 @@ class SampleTest extends TestCase
 
         $this->assertSame($expected, $actual);
     }
+
+    /**
+     * @test
+     */
+    public function 関数getFilmNameFromYearは、1986を与えるとラピュタを返す()
+    {
+        $expected = '天空の城ラピュタ';
+        $actual   = $this->sampleService->getFilmNameFromYear(1986);
+
+        $this->assertSame($expected, $actual);
+    }
+
 }
