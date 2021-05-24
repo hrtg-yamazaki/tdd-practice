@@ -32,6 +32,9 @@ class SampleService implements SampleServiceInterface
         if ($year === 1986) {
             return '天空の城ラピュタ';
         }
+        if ($year === 1988) {
+            return 'となりのトトロ';
+        }
         return '次の作品が完成したら今度こそ引退します';
     }
 }

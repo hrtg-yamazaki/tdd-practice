@@ -57,3 +57,9 @@ Failed asserting that two strings are identical.
 
 /app/tests/Unit/Sample/SampleTest.php:63
 ```
+
+- 【Green】数字の1988が与えられた時、文字列「となりのトトロ」を返す
+
+```
+OK (6 tests, 6 assertions)
+```
