@@ -29,6 +29,9 @@ class SampleService implements SampleServiceInterface
      */
     public function getFilmNameFromYear(int $year): string
     {
+        if ($year === 1986) {
+            return '天空の城ラピュタ';
+        }
         return '次の作品が完成したら今度こそ引退します';
     }
 }

@@ -37,3 +37,9 @@ Failed asserting that two strings are identical.
 FAILURES!
 Tests: 5, Assertions: 5, Failures: 1.
 ```
+
+- 【Red】数字の1986が与えられた時、文字列「天空の城ラピュタ」を返す
+
+```
+OK (5 tests, 5 assertions)
+```
